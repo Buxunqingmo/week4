@@ -1,0 +1,32 @@
+{
+    "LGBM": {
+        "model_name": "LGBM",
+        "train_metrics": {
+            "rmse": 19.9,
+            "mae": 10.02,
+            "r2": 0.95
+        },
+        "test_metrics": {
+            "rmse": 23.65,
+            "mae": 12.17,
+            "r2": 0.93
+        },
+        "train_path": "output\\single_run_train_LGBM.csv",
+        "test_path": "output\\single_run_test_LGBM.csv"
+    },
+    "XGBoost": {
+        "model_name": "XGBoost",
+        "train_metrics": {
+            "rmse": 13.02,
+            "mae": 4.55,
+            "r2": 0.98
+        },
+        "test_metrics": {
+            "rmse": 15.03,
+            "mae": 6.5,
+            "r2": 0.97
+        },
+        "train_path": "output\\single_run_train_XGBoost.csv",
+        "test_path": "output\\single_run_test_XGBoost.csv"
+    }
+}

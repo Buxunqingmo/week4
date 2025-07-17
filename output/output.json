@@ -1,0 +1,2354 @@
+[
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  },
+  {
+    "model_name": "LGBM",
+    "model_params": {
+      "objective": "regression",
+      "metric": "rmse",
+      "boosting_type": "gbdt",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 21.51,
+            "mae": 10.98,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 20.05,
+            "mae": 10.18,
+            "r2": 0.95
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 19.43,
+            "mae": 10.06,
+            "r2": 0.95
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 29.4,
+            "mae": 15.38,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 28.43,
+            "mae": 13.33,
+            "r2": 0.89
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 28.27,
+            "mae": 14.09,
+            "r2": 0.89
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 20.33,
+        "mae": 10.41,
+        "r2": 0.95
+      },
+      "average_test": {
+        "rmse": 28.7,
+        "mae": 14.27,
+        "r2": 0.89
+      }
+    }
+  },
+  {
+    "model_name": "XGBoost",
+    "model_params": {
+      "objective": "reg:squarederror",
+      "eval_metric": "rmse",
+      "random_state": 42
+    },
+    "fea_encoding": "ordinal",
+    "cv_results": {
+      "fold_train": [
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 13.41,
+            "mae": 4.22,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1171,
+          "performance": {
+            "rmse": 11.22,
+            "mae": 3.91,
+            "r2": 0.98
+          }
+        },
+        {
+          "data_size": 1172,
+          "performance": {
+            "rmse": 10.05,
+            "mae": 3.77,
+            "r2": 0.99
+          }
+        }
+      ],
+      "fold_test": [
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 21.41,
+            "mae": 7.8,
+            "r2": 0.94
+          }
+        },
+        {
+          "data_size": 586,
+          "performance": {
+            "rmse": 25.25,
+            "mae": 8.95,
+            "r2": 0.91
+          }
+        },
+        {
+          "data_size": 585,
+          "performance": {
+            "rmse": 20.36,
+            "mae": 7.38,
+            "r2": 0.94
+          }
+        }
+      ],
+      "average_train": {
+        "rmse": 11.56,
+        "mae": 3.97,
+        "r2": 0.98
+      },
+      "average_test": {
+        "rmse": 22.34,
+        "mae": 8.04,
+        "r2": 0.93
+      }
+    }
+  }
+]
